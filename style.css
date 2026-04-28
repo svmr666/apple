@@ -1,0 +1,918 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+}
+/*Header*/
+
+header {
+  width: 100%;
+  height: 44px;
+  background-color: #f5f5f7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  z-index: 1000;
+}
+.menu-icon {
+  display: none;
+}
+
+/*Donation Banner*/
+.donationBanner {
+  width: 700px;
+  height: 20px;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*Background 1*/
+
+#background1 {
+  background-image: url(Images/Background.png);
+  width: 1920px;
+  height: 692px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.background1Wrap {
+  width: 405px;
+  height: 172px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.iphoneWrap {
+  width: 405px;
+  height: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.iphoneButton {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 20px;
+}
+.iphoneText {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  margin: 0;
+}
+.iphoneText2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+.learnMore {
+  color: white;
+  background-color: #0071e3;
+  border-radius: 40px;
+  width: 123px;
+  height: 44px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.Buy {
+  color: #2997ff;
+  border: 1px solid #2997ff;
+  border-radius: 40px;
+  width: 68px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+/*Background2 Wrap*/
+
+#background2 {
+  background-image: url(Images/Background2.png);
+  width: 1920px;
+  height: 692px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.learnMore2 {
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  width: 123px;
+  height: 44px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.Buy2 {
+  color: white;
+  border: 1px solid white;
+  border-radius: 40px;
+  width: 68px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+/*Background3 Wrap*/
+
+#background3 {
+  background-image: url(Images/Background3.png);
+  width: 1920px;
+  height: 692px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.background3Wrap {
+  width: 405px;
+  height: 164px;
+  margin-top: 446px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.giftWrap {
+  width: 405px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.giftText {
+  font-family: "Inter", sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  margin: 0;
+}
+.giftText2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+.giftBorder {
+  background-color: #0071e3;
+  width: 114px;
+  height: 44px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+/*Card Wrap*/
+#Card {
+  width: 100%;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 12px;
+}
+.iPadWrap {
+  background-image: url(Images/ipad.png);
+  width: 942px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ipadair {
+  width: 430px;
+  height: 33px;
+  margin-top: 58px;
+}
+.iPadText {
+  width: 322px;
+  height: 25px;
+  margin-top: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.ipad-border {
+  width: 199px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 20px;
+}
+.ipad-learn {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.ipad-buy {
+  width: 68px;
+  height: 40px;
+  border: 1px solid #2997ff;
+  border-radius: 40px;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ipadText2 {
+  width: 169px;
+  height: 18px;
+  margin-top: 324px;
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33%,
+    #f2416b 67%,
+    #f55600 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.airPodWrap {
+  background-image: url(Images/airpods.png);
+  width: 942px;
+  height: 580px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.airpodText {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 401px;
+}
+.airpodText2 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.airpod-border {
+  width: 235px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.iwatchWrap {
+  background-image: url(Images/iwatch.png);
+  background-size: cover;
+  width: 942px;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+}
+
+.iwatchWrap2 {
+  width: 322px;
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.iwatchText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.iwatchTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.iwatchText2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.iwatchSeries {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  color: #1d1d1f;
+  margin: 0;
+}
+
+.iwatchSlogan {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #1d1d1f;
+  margin: 0;
+}
+.iwatch-border {
+  width: 199px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.macbookWrap {
+  background-image: url(Images/macbook.png);
+  width: 942px;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+}
+.macbookBorder {
+  width: 370px;
+  height: 121px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.macbookTitle {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.macbookText {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.tradeWrap {
+  background-image: url(Images/tradein.png);
+  width: 942px;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+}
+.tradeWrap2 {
+  width: 322px;
+  height: 170px;
+  margin-top: 58px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.tradeBorder {
+  background-color: #0071e3;
+  color: white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 167px;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.tradeText {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.cardWrap {
+  background-image: url(Images/card.png);
+  width: 942px;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+}
+.applyNow {
+  border: 1px solid #0071e3;
+  color: #0071e3;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  border-radius: 40px;
+  width: 112px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#LinkContainer {
+  width: 100%;
+  height: 668px;
+  display: flex;
+  overflow: scroll;
+  margin-top: 15px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.linkBox {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  gap: 16px;
+  scroll-snap-align: center;
+}
+.boxImg {
+  width: 1250px;
+  height: 100%;
+}
+/* Footer Wrap */
+#FooterWrap {
+  width: 100%;
+  height: 292px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  overflow: scroll;
+}
+.footerBox {
+  width: 500%;
+  height: 100%;
+  display: flex;
+  gap: 16px;
+  animation: spin 60s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+.fitnessWrap {
+  background-image: url(Images/FitnessCard.png);
+  width: 417px;
+  height: 236px;
+}
+.musicWrap {
+  background-image: url(Images/MusicCard.png);
+  width: 417px;
+  height: 236px;
+}
+.nbaWrap {
+  background-image: url(Images/nbaCard.png);
+  width: 417px;
+  height: 236px;
+}
+.gymWrap {
+  background-image: url(Images/gymCard.png);
+  width: 417px;
+  height: 236px;
+}
+.musicBorder {
+  background-color: #ebb799;
+  width: 417px;
+  height: 236px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  /*Header 768*/
+  .menu-icon {
+    display: block;
+    margin-left: auto;
+  }
+  .header-text {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /*Donation 768*/
+  .donationBanner {
+    height: 48px;
+    font-size: 16px;
+  }
+
+  /*Background1 768*/
+  #background1 {
+    width: 768px;
+    height: 650px;
+    background-image: url(Images/background768.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .iphoneText {
+    font-size: 42px;
+  }
+  .iphoneText2 {
+    font-size: 22px;
+  }
+  #background2 {
+    width: 768px;
+    height: 650px;
+    background-image: url(Images/background2-768.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #background3 {
+    width: 768px;
+    height: 650px;
+  }
+  .giftText {
+    font-size: 42px;
+  }
+
+  /*Card Wrap*/
+
+  #Card {
+    width: 744px;
+    height: 1494px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 12px;
+  }
+  .iPadWrap {
+    width: 366px;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+  }
+  .ipad-border {
+    width: 241px;
+    height: 36px;
+    margin-top: 280px;
+    justify-content: center;
+    align-items: center;
+  }
+  .iPadText {
+    font-size: 18px;
+  }
+
+  .iwatchWrap {
+    width: 366px;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+  }
+  .vector {
+    width: 22px;
+    height: 27px;
+  }
+  .iwatchText2 {
+    font-size: 28px;
+  }
+  .iwatchSeries {
+    font-size: 13px;
+  }
+  .iwatchSlogan {
+    font-size: 18px;
+  }
+  .iwatch-border {
+    width: 235px;
+    height: 36px;
+    margin-top: 16px;
+  }
+  .airPodWrap {
+    width: 366px;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+  }
+  .airpodText {
+    margin-top: 330px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .airpodText2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .macbookWrap {
+    width: 366px;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+  }
+  .macbookTitle {
+    font-size: 30px;
+  }
+  .macbookText {
+    font-size: 18px;
+  }
+  .tradeWrap {
+    width: 366px;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+  }
+  .tradeText {
+    font-size: 18px;
+  }
+  .cardWrap {
+    width: 366px;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+  }
+  /* Apple tv Wrap */
+  #LinkContainer {
+    height: 368px;
+  }
+  .boxImg {
+    width: 689px;
+    height: 368px;
+  }
+  /* Footer Wrap */
+  #FooterWrap {
+    width: 768px;
+    height: 194px;
+  }
+  .fitnessWrap {
+    width: 286px;
+    height: 161px;
+    background-size: cover;
+  }
+  .musicWrap {
+    width: 286px;
+    height: 161px;
+    background-size: cover;
+  }
+  .nbaWrap {
+    width: 286px;
+    height: 161px;
+    background-size: cover;
+  }
+  .gymWrap {
+    width: 286px;
+    height: 161px;
+    background-size: cover;
+  }
+  .musicBorder {
+    width: 286px;
+    height: 161px;
+    background-size: cover;
+  }
+  .musicImgWrap {
+    height: 161px;
+  }
+}
+@media (max-width: 390px) /* 390px Wrap */ {
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+  }
+
+  /* Donation 390px */
+  .donationBanner {
+    width: 390px;
+    height: 73px;
+  }
+  #background1 {
+    background-image: url(Images/background1-390.png);
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .iphoneWrap {
+    margin-top: 500px;
+  }
+
+  .iphoneText {
+    font-size: 30px;
+    margin: 0;
+  }
+  .iphoneText2 {
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  .iphoneButton {
+    margin-top: 16px;
+    height: 36px;
+  }
+  .learnMore {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .Buy {
+    width: 66px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  #background2 {
+    background-image: url(Images/background2-390.png);
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  /* background2 Wrap */
+  .learnMore2 {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .Buy2 {
+    width: 66px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  /* Background 3 */
+  #background3 {
+    background-image: url(Images/Figure.png);
+    background-position: center;
+    background-size: cover;
+    width: 390px;
+    height: 500px;
+  }
+  .giftWrap {
+    display: none;
+  }
+  .giftBorder {
+    display: none;
+  }
+  /* Card Wrap 390px */
+
+  #Card {
+    width: 390px;
+    height: 3060px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 12px;
+  }
+  .iPadWrap {
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .iwatchWrap {
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .airPodWrap {
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .macbookWrap {
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .tradeWrap {
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .cardWrap {
+    width: 390px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  /* Apple Tv */
+  #LinkContainer {
+    height: 495px;
+  }
+  .boxImg {
+    width: 274px;
+    height: 495px;
+  }
+  /* Footer Wrap 390 */
+  #FooterWrap {
+    width: 100%;
+    height: 160px;
+  }
+  .fitnessWrap {
+    width: 238px;
+    height: 134px;
+    background-size: cover;
+  }
+  .musicWrap {
+    width: 238px;
+    height: 134px;
+    background-size: cover;
+  }
+  .nbaWrap {
+    width: 238px;
+    height: 134px;
+    background-size: cover;
+  }
+  .gymWrap {
+    width: 238px;
+    height: 134px;
+    background-size: cover;
+  }
+  .musicBorder {
+    width: 238px;
+    height: 134px;
+    background-size: cover;
+  }
+  .musicImgWrap {
+    height: 134px;
+  }
+}
